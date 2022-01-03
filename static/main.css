@@ -1,0 +1,125 @@
+ 
+
+#nav {
+ background: rgb(195,219,242);
+  background: linear-gradient(180deg, rgba(195,219,242,1) 0%, rgba(240,246,252,1) 69%, rgba(227,233,237,1) 98%);
+  display: flex;
+  justify-content: space-evenly;
+  height: 15vh;
+  align-items: center;
+  border-bottom: 0px solid black;
+  }
+
+#tablecontainer {
+  display: inline-block;  
+}
+
+caption {
+  margin-bottom: 1vh;
+  text-align: left;
+  }
+
+#titlediv {
+  height: 66%;
+  }
+
+img {
+  height: 7vh;
+  width: 5vw;
+  }
+
+#leftdiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+  }
+
+#mar {
+  width: 45vw;
+  height: 63vh;
+  border-right: 0px solid black;
+  }
+
+table {
+  border-radius: 10px;
+  border-collapse: collapse;
+  padding: 0px;
+  border: 1px solid black; 
+  width: 25vw;
+  height: 15vh;
+ }
+
+#table1 {
+  background-color: white;
+   margin-bottom: 5vh;
+}
+
+.cell {
+  backgrond-color: 5FCF93;}
+
+i {
+  margin-right: 3px;
+  }
+
+
+.celln {
+  background-color: #ff7a7a;}
+
+#table2 {
+   margin-bottom: 5vh;
+  background-color: white;
+}
+
+#table3 {
+  background-color: white;
+}
+
+
+
+th,td {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 0px;
+  }
+
+td {
+  background-color: white;   
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px;
+  font-size: 14; 
+ }
+
+th {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16;
+  background-color: white;
+  border-bottom: 0px solid black;
+  border-right: 0px solid black;
+  padding: 0px;
+  }
+
+#label1 {font-size: 18px;font-family: 'Merriweather', serif;}
+#label2 {font-size: 18px; font-family: 'Merriweather', serif;} 
+#label3 {font-size: 18px; font-family: 'Merriweather', serif;} 
+
+body {
+  margin: 0px;
+  background-color: WHITE ;  /* #C3DBF2; */
+  padding: 0px;
+  }
+
+a {
+  color: black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 0.0px;
+  font-weight: none;
+  font-family: 'Merriweather', serif;
+ 'Acme', sans-serif
+  }

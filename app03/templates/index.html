@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<script src="plotly-2.6.3.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='/main.css') }}"> 
+<script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"  crossorigin="anonymous">
+<script type="text/javascript" src="{{url_for('static',filename='/main.js') }}" async></script>
+
+</head>
+
+
+
+<body>
+
+  <div id="nav">
+    <a id="und" href="">Home</a>
+    <a href="">Revenue</a>
+    <a href="">Cost</a>
+    <a href="">Customer</a>
+    <a href="">Help</a>
+  </div>
+
+   <div id="mar"></div>
+  
+  <div id="container">
+
+     <table id="table1">
+<tr><th class="proflab">Net Profit</th><td></td><td></td><td></td><td></td></tr>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th >Current</th><td class="cells">2,000</td><td class="cells">5,000</td><td class="cells">14,000</td><td class="cells">34,000</td></tr>
+<tr><th>1,000</td><td class="cells">6,000</td><td class="cells">12,000</td><td class="cells">37,000</td><td></td></tr>
+<tr><th>Diff.</th><td class="cells">+1.02</td><td class="cells">-0.87</td><td class="cells">+1.09</td><td class="cells">-0.92</td></tr>
+
+</table>
+
+<table id="table2">
+<tr><th class="proflab">Gross Profit</th><td></td><td></td><td></td><td></td></tr>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th>Current</th><td>2,000</td><td>5,000</td><td>14,000</td><td>34,000</td></tr>
+<tr><th>Previous</th><td>1,000</td><td>6,000</td><td>12,000</td><td>37,000</td></tr>
+<tr><th>Diff.</th><td>+1.02</td><td>-0.86</td><td>+1.09</td><td>-0.92</td></tr>
+</table>
+
+<table id="table3">
+<tr><th class="proflab">Operating Profit</th><td></td><td></td><td></td><td></td></tr>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th>Current</th><td>2,000</td><td>5,000</td><td>14,000</td><td>34,000</td></tr>
+<tr><th>Previous</th><td>1,000</td><td>6,000</td><td>12,000</td><td>37,000</td></tr>
+<tr><th>Diff.</th><td>+1.02</td><td>-0.87</td><td>+1.09</td><td>-0.92</td></tr>
+      </table>
+  </div>
+
+
+<footer></footer>
+</body>
+</html>

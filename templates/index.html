@@ -1,0 +1,78 @@
+<html>
+<head>
+
+<script src="plotly-2.6.3.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='/main.css') }}"> 
+<script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"  crossorigin="anonymous">
+<script type="text/javascript" src="{{url_for('static',filename='/main.js') }}" async></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+  <div id="nav">
+    <img src="/static/analysis.png">
+    <a style="border-bottom: 3px solid blue;"href="">Home</a>
+    <a href="/revenue">Revenue</a>
+    <a href="">Cost</a>
+    <a href="">Customer</a>
+    <a href="">Database</a>
+    <a href="">Help</a>
+  </div>
+
+  <div id="leftdiv">
+    <div id="mar"></div>
+  
+
+  <div id="tablecontainer">
+     <table id="table1">
+<caption id="label1">Net Profit</caption>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th>Current</th><td>2,000</td><td>5,000</td><td>14,000</td><td>34,000</td></tr>
+<tr><th>Previous</th><td>1,000</td><td>6,000</td><td>12,000</td><td>37,000</td></tr>
+<tr><th>Growth</th><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>100%</td><td>
+<i style="color: red;" class="fas fa-caret-down fa-lg"></i>36%</td><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>23%</td><td><i style="color: red;" class="fas fa-caret-down fa-lg"></i>8%</td></tr>
+</table>
+
+<table id="table2">
+<caption id="label2">Gross Profit</caption>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th>Current</th><td>2,000</td><td>5,000</td><td>14,000</td><td>34,000</td></tr>
+<tr><th>Previous</th><td>1,000</td><td>6,000</td><td>12,000</td><td>37,000</td></tr>
+<tr><th>Growth</th><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>100%</td><td>
+<i style="color: red;" class="fas fa-caret-down fa-lg"></i>36%</td><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>23%</td><td><i style="color: red;" class="fas fa-caret-down fa-lg"></i>8%</td></tr>
+</table>
+
+<table id="table3">
+<caption id="label3">Operating Profit</caption>
+<tr><th></th><th>Week</th><th>Month</th><th>Quarter</th><th>Year</th></tr>
+<tr><th>Current</th><td>2,000</td><td>5,000</td><td>14,000</td><td>34,000</td></tr>
+<tr><th>Previous</th><td>1,000</td><td>6,000</td><td>12,000</td><td>37,000</td></tr>
+<tr><th>Growth</th><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>100%</td><td>
+<i style="color: red;" class="fas fa-caret-down fa-lg"></i>36%</td><td><i style="color: green;" class="fas fa-caret-up fa-lg"></i>23%</td><td><i style="color: red;" class="fas fa-caret-down fa-lg"></i>8%</td></tr>
+      </table>   
+    </div>
+ 
+  </div>
+
+
+</body>
+</html>
